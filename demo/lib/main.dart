@@ -33,14 +33,14 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Center(child: Text('Demo Testing App')),
+          title: const Center(child: Text('Demo Testing App')),
         ),
         body: Center(
           child: Container(
               width: 300,
               height: 300,
               color: Colors.blueGrey,
-              child: Center(child: Text(
+              child: const Center(child: Text(
                 'My name is Yashraj Kadam',
                 style: TextStyle(
                   color: Colors.limeAccent, 
