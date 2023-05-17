@@ -45,7 +45,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: TextStyle(
                   color: Colors.limeAccent, 
                   fontSize: 15, 
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  backgroundColor: Colors.black
               )
             ), 
           ),
