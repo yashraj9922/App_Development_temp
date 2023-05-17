@@ -29,24 +29,27 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Center(child: Text('Demo Testing App')),
-      ),
-      body: Container(
-        width: 500,
-        height: 500,
-        color: Colors.blueGrey,
+        appBar: AppBar(
+          title: Center(child: Text('Demo Testing App')),
+        ),
+        body: Center(
+          child: Container(
+              width: 300,
+              height: 300,
+              color: Colors.blueGrey,
+              child: Center(child: Text(
+                'My name is Yashraj Kadam',
+                style: TextStyle(
+                  color: Colors.limeAccent, 
+                  fontSize: 15, 
+                  fontWeight: FontWeight.bold
+              )
+            ), 
+          ),
+        )
       ),
     );
   }
