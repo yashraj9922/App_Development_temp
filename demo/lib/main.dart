@@ -35,22 +35,33 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: const Center(child: Text('Demo Testing App')),
         ),
-        body: Center(
-          child: Container(
-              width: 300,
-              height: 300,
-              color: Colors.blueGrey,
-              child: const Center(child: Text(
-                'My name is Yashraj Kadam',
-                style: TextStyle(
-                  color: Colors.limeAccent, 
-                  fontSize: 15, 
-                  fontWeight: FontWeight.bold,
-                  backgroundColor: Colors.black
-              )
-            ), 
+        body:
+            Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                    width: 90,
+                    height: 90,
+                    color: Colors.blueGrey,
+                    child: const Center(child: Text(
+                      'Yashraj Kadam',
+                      style: TextStyle(
+                        color: Colors.limeAccent,
+                        fontSize: 10,
+                        fontWeight: FontWeight.bold,
+                        backgroundColor: Colors.black)),),),
+            TextButton(
+          child: Text('Click here'),
+          onPressed: () {
+            print('Text Button Clicked');
+          },
+          onLongPress: () {
+            print('Longpressed done');
+          },
           ),
-        )
+        ],
+        ),
       ),
     );
   }
