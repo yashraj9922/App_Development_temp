@@ -39,11 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              width: 200,
-              height: 200,
-              child: Image.asset('assets/images/abc.jpg'),
-            ),
+            Container(child: Image.asset('images/river.jpg')),
             Container(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
