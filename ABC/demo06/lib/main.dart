@@ -10,17 +10,11 @@ void main() {
         // backgroundColor: Color.fromARGB(255, 250, 209, 57),
         body: Container(
           decoration: const BoxDecoration(
-            // gradient: LinearGradient(colors: Colors.accents),
-            gradient: LinearGradient(colors: [
-              Colors.white,
-              Colors.black,
-              Colors.white,
-              Colors.black,
-              Colors.white,
-              Colors.black,
-              Colors.white,
-              Colors.black,
-            ]),
+            gradient: LinearGradient(
+              colors: [Colors.amber, Colors.green],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
           ),
           child: const Center(
             child: Text("HELLO WORLD"),
