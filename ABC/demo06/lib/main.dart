@@ -12,14 +12,14 @@ void main() {
           decoration: const BoxDecoration(
             // gradient: LinearGradient(colors: Colors.accents),
             gradient: LinearGradient(colors: [
-              Colors.white10,
-              Colors.white12,
-              Colors.white24,
-              Colors.white30,
-              Colors.white38,
-              Colors.white54,
-              Colors.white60,
-              Colors.white70,
+              Colors.white,
+              Colors.black,
+              Colors.white,
+              Colors.black,
+              Colors.white,
+              Colors.black,
+              Colors.white,
+              Colors.black,
             ]),
           ),
           child: const Center(
